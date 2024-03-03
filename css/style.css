@@ -63,8 +63,8 @@ header {
 
 /* footer css */
 footer {
-    background-color: blue;
-    height: 150px;
+    padding: 0px 50px 20px 50px;
+    border-top: 1px solid rgba(220, 220, 225, 0.658);
 }
 
 .products {
@@ -136,4 +136,74 @@ footer {
     height: 100%;
     border-radius: 5px;
 
+}
+
+.img_cl2 {
+    background: url(../image/setvaycobeo.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl3 {
+    background: url(../image/setvaycobeo.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+/* Footer */
+.main_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_footer h5{
+    margin-bottom: 10px;
+}
+
+.content_footer p {
+    margin-bottom: 5px;
+}
+
+.main_about {
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    height: 750px;
+    padding: 20px 50px;
+}
+
+.left_img_about {
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+.in_left_about {
+    width: 80%;
+    margin-left: 70px;
+    height: 100%;
+    background: url(../image/Đen\ và\ Trắng\ Thanh\ lịch\ Quần\ áo\ Cũ\ Thời\ trang\ Bền\ vững\ Tin\ Instagram.jpg) center/cover no-repeat;
+}
+
+.in_right_about h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.in_right_about p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.right_content_about {
+    width: 50%;
+}
+
+/* PRODUCT_PAGE */
+.product_page {
+    margin-top:150px ;
 }
