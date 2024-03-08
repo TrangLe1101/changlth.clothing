@@ -17,10 +17,6 @@ header {
     background-color:rgb(255, 255, 255);
 }
 
-/* header:hover {
-    background-color:rgb(255, 255, 255);
-} */
-
 .image img {
     width: 150px;
 }
@@ -105,7 +101,6 @@ footer {
     width: 250px;
     height: 350px;
     padding: 5px 10px;
-    /* background-color: rgb(12, 99, 175); */
 }
 
 .flex1 p {
@@ -123,7 +118,47 @@ footer {
 }
 
 .img_cl {
-    background: url(../image/Alex\ Perry\ resort\ 2019.jpg) center/cover no-repeat;
+    background: url(../image/trang9.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl4 {
+    background: url(../image/xalanh.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl5 {
+    background: url(../image/hongcanhsen.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl6 {
+    background: url(../image/xanhduong.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl7 {
+    background: url(../image/trangkem.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.img_cl8 {
+    background: url(../image/xanhcaro.jpg) center/cover no-repeat;
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -131,7 +166,7 @@ footer {
 }
 
 .img_cl1 {
-    background: url(../image/31\ Gorgeous\ Pieces\ Of\ Clothing\ That\ Look\ Even\ Better\ From\ Behind.jpg) center/cover no-repeat;
+    background: url(../image/vang8.jpg) center/cover no-repeat;
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -147,13 +182,14 @@ footer {
 }
 
 .img_cl3 {
-    background: url(../image/setvaycobeo.jpg) center/cover no-repeat;
+    background: url(../image/vayhong.jpg) center/cover no-repeat;
     width: 100%;
     height: 100%;
     border-radius: 5px;
-
 }
+
 /* Footer */
+
 .main_footer {
     display: flex;
     align-items: center;
@@ -172,7 +208,7 @@ footer {
     margin-top: 150px;
     display: flex;
     width: 100%;
-    height: 750px;
+    height: auto;
     padding: 20px 50px;
 }
 
@@ -183,9 +219,9 @@ footer {
 
 .in_left_about {
     width: 80%;
-    margin-left: 70px;
+    margin-left: 55px;
     height: 100%;
-    background: url(../image/Đen\ và\ Trắng\ Thanh\ lịch\ Quần\ áo\ Cũ\ Thời\ trang\ Bền\ vững\ Tin\ Instagram.jpg) center/cover no-repeat;
+    background: url(../image/chutichtrang.jpg) center/cover no-repeat;
 }
 
 .in_right_about h3{
@@ -206,4 +242,90 @@ footer {
 /* PRODUCT_PAGE */
 .product_page {
     margin-top:150px ;
+}
+
+/* FORM_CONTACT */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 40px ;
+    font-size: 50px;
+}
+
+.form-group {
+    margin-bottom: 3    0px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.form-group button {
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.form-group button:hover {
+    background-color: pink;
+    transition: 0.5s ;
+}
+
+.form-group button span {
+    color: white;
+    font-size: 18px;
+}
+
+.contact_form {
+    margin-top: 200px;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    gap: 10px;
+    padding: 10px;
+}
+.gallery img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery_review {
+    margin-top: 150px;
+    padding: 0 150px;
 }
